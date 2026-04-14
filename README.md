@@ -1,62 +1,66 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&pause=1000&color=01143E&center=true&vCenter=true&width=600&lines=Hi,+I'm+Cai+Jiechao;Building+Elegant+AI+Systems;Agent+%26+LLM+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&pause=1000&color=01143E&center=true&vCenter=true&width=600&lines=Hi,+I'm+Cai+Jiechao;I+build+things+for+the+world;AI+%26+LLM+Engineer" alt="Typing SVG" />
 </div>
+
+<br/>
 
 <div align="center">
+  <p><b>Computer Science Student | Building useful, unique, and elegant products.</b><br/>Focusing on Agent & LLM Engineering, RAG, and clean architecture.</p>
+  
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email"/></a>
   <a href="https://yourwebsite.com"><img src="https://img.shields.io/badge/Portfolio-01143E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-01143E?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/yourgithubusername"><img src="https://img.shields.io/badge/GitHub-01143E?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://linkedin.com/in/yourlinkedin"><img src="https://img.shields.io/badge/LinkedIn-01143E?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </div>
 
 <br/>
 
-### About Me
-
-I am a Computer Science student and AI Engineer focusing on Multi-Agent Systems, RAG, and clean architecture. I adapt quickly to different engineering requirements, from full-stack web development to LLM integration and high-performance API gateway design.
-
-* **Current Focus:** Developing the MathTasks Platform and Enterprise LLM Gateway.
-* **Domains:** Agent Engineering, RAG, Asyncio, Data Structures, High-Performance Routing.
-* **Education:** MSc in Computer Science @ HKU (Expected 2027) | BSc @ BNU-HKBU UIC.
-* **Connect:** Reach out via [Email](mailto:your.email@example.com) or explore my [Portfolio](https://yourwebsite.com).
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourgithubusername&show_icons=true&theme=transparent&hide_border=true&title_color=01143E&text_color=333333&icon_color=5f88e0" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourgithubusername&theme=transparent&hide_border=true&title_color=01143E&text_color=333333&icon_color=5f88e0&ring_color=5f88e0&fire_color=01143E" alt="GitHub Streak" width="48%" />
+</div>
 
 <br/>
 
-### Engineering Stack
+## Education Background
+
+- **The University of Hong Kong (HKU)** | *MSc in Computer Science* (2026.9 - 2027.8 Expected)
+  - Focus: Large Models & NLP, Multi-Agent Systems
+- **BNU-HKBU UIC & University of Malaya (Exchange)** | *BSc in Computer Science* (2022.9 - 2026.6)
+  - Top 15%, Second-Class Scholarship
+
+## Core Technology Stack
 
 <div align="left">
-  <!-- Expanded skills from your resume: Python, TS, Java, Kotlin, FastAPI, NextJS, Postgres, Docker, Redis, Linux, Git, Nginx, Playwright -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,java,kotlin,fastapi,nextjs,postgres,docker,redis,playwright,linux,git,bash,nginx&theme=light&perline=14" alt="Tech Stack" />
-  </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
 </div>
 
 <br/>
 
-### GitHub Analytics
+* **Domains**: Agent Engineering, RAG, LLM Capability Boundaries, Asyncio, Data Structures & Networking
+* **Tools**: Vibe-Coding, Cursor, Trae, Claude Code
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourgithubusername&show_icons=true&theme=transparent&hide_border=true&title_color=01143E&text_color=555555&icon_color=01143E&ring_color=01143E" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourgithubusername&layout=compact&theme=transparent&hide_border=true&title_color=01143E&text_color=555555" height="165" alt="Top Languages" />
-</div>
+## Latest Projects
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourgithubusername&theme=transparent&hide_border=true&title_color=01143E&text_color=555555&icon_color=01143E&ring_color=01143E&fire_color=01143E" height="165" alt="GitHub Streak" />
-</div>
+### 1. Baipiao: Browser-Automation Local LLM Proxy
+*Bun, Hono, CDP (Chrome DevTools Protocol)*
+- Hijacked local browsers via CDP protocol to simulate actions and bypass anti-scraping DOM selectors.
+- Built a local HTTP service providing standard `/v1/chat/completions` interfaces compatible with OpenAI/Anthropic.
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourgithubusername&bg_color=transparent&color=555555&line=01143E&point=01143E&area=true&hide_border=true&title_color=01143E" width="100%" alt="GitHub Activity Graph" />
-</div>
-
-<br/>
-
-### Featured Projects
-
-* [**Baipiao**](https://github.com/computersniper/baipiao): Browser-Automation Local LLM Proxy via CDP.
-* [**Roles-Skill Architecture**](https://github.com/computersniper/roles-skill): Cyber immortality via character distillation.
+### 2. Roles-Skill: Character Distillation Architecture
+*Claude Code, Python, Agent Architecture*
+- Designed a "Cyber Immortality" Skill architecture supporting native language replies and auto-translation pipelines.
+- Developed an auto-tool generation engine to dispatch Python tools to Agents based on character types.
 
 
 <br/>
+
 <div align="center">
-  <p><i>"Building useful, unique, and elegant products for the world."</i></p>
+  <p><i>"I build things for the world."</i></p>
 </div>
