@@ -36,31 +36,121 @@
 
 ## 💡 Professional Skills & AI Traits
 
-- **AI Native Developer**: Heavy user of Cursor, Claude Code, and Trae (millions of tokens daily). Expert in prompt engineering and LLM production code paradigms.
-- **Agent & LLM Engineering**: Deep understanding of LLM capability boundaries, Context Engineering, RAG architectures, and MCP (Model Context Protocol) Skill development.
-- **Core Tech Stack**: Python (Expert), Java, TypeScript, Kotlin. Proficient in FastAPI, SQLAlchemy, Docker, asyncio. Strong foundation in Data Structures and Networking.
+```python
+class CaiJiechao:
+    def __init__(self):
+        self.username = 'computersniper'
+        self.name = 'Cai Jiechao'
+        self.position = 'AI & LLM Engineer / Agent Developer'
+        self.web = 'https://www.caijiechao.com'
+        
+        self.ai_native_developer = {
+            'tools': ['Cursor', 'Claude Code', 'Trae'],
+            'daily_tokens': 'Millions',
+            'expertise': ['Prompt Engineering', 'LLM Production Code Paradigms']
+        }
+        
+        self.agent_and_llm_engineering = {
+            'core': ['Context Engineering', 'RAG Architectures', 'MCP (Model Context Protocol)'],
+            'focus': ['LLM Capability Boundaries', 'Skill Development', 'Multi-Agent Systems']
+        }
+        
+        self.core_tech_stack = {
+            'languages': ['Python (Expert)', 'Java', 'TypeScript', 'Kotlin'],
+            'frameworks': ['FastAPI', 'Next.js', 'Hono', 'React'],
+            'databases': ['PostgreSQL', 'SQLite'],
+            'infrastructure': ['Docker', 'Asyncio', 'Playwright'],
+            'foundations': ['Data Structures', 'Networking']
+        }
+
+    def __str__(self):
+        return f"{self.name} | {self.position} | I build things for the world."
+
+if __name__ == '__main__':
+    me = CaiJiechao()
+    print(me)
+```
 
 ## 🔨 Languages and Tools
 
-<p align="left">
-  <a href="https://www.python.org" target="_blank"><img align="left" alt="Python" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg" /></a> 
-  <a href="https://www.java.com" target="_blank"><img align="left" alt="Java" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/java/java.svg" /></a> 
-  <a href="https://kotlinlang.org" target="_blank"><img align="left" alt="Kotlin" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/kotlin/kotlin.svg" /></a> 
-  <a href="https://developer.android.com" target="_blank"><img align="left" alt="Android" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/android/android.svg" /></a> 
-  <a href="https://www.typescriptlang.org/" target="_blank"><img align="left" alt="TypeScript" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/typescript/typescript.svg" /></a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img align="left" alt="JavaScript" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/javascript/javascript.svg" /></a> 
-  <a href="https://reactjs.org/" target="_blank"><img align="left" alt="React" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/react/react.svg" /></a> 
-  <a href="https://nodejs.org" target="_blank"><img align="left" alt="Node.js" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/node/node.svg" /></a> 
-  <a href="https://nextjs.org/" target="_blank"><img align="left" alt="Next.js" height="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank"><img align="left" alt="FastAPI" height="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" /></a>
-  <a href="https://www.postgresql.org/" target="_blank"><img align="left" alt="PostgreSQL" height="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /></a>
-  <a href="https://www.docker.com/" target="_blank"><img align="left" alt="Docker" height="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" /></a>
-  <a href="https://pytorch.org/" target="_blank"><img align="left" alt="PyTorch" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/pytorch/pytorch.svg" /></a>  
-  <a href="https://www.tensorflow.org" target="_blank"><img align="left" alt="TensorFlow" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/tensorflow/tensorflow.svg" /></a>  
-  <a href="https://firebase.google.com/" target="_blank"><img align="left" alt="Firebase" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/firebase/firebase.svg" /></a> 
-  <a href="https://git-scm.com/" target="_blank"><img align="left" alt="Git" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/git-scm/git-scm.svg" /></a> 
-  <a href="https://www.figma.com/" target="_blank"><img align="left" alt="Figma" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/figma/figma.svg" /></a> 
-</p>
+<table align="center">
+    <tr>
+        <td align="center" width="90">
+            <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="55" height="55" />
+            <br>Python
+        </td>
+        <td align="center" width="90">
+            <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="55" height="55" />
+            <br>Java
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="48" height="48" />
+            <br>TypeScript
+        </td>
+        <td align="center" width="90">
+            <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="55" height="55" />
+            <br>JavaScript
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" width="48" height="48" />
+            <br>Kotlin
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android" width="48" height="48" />
+            <br>Android
+        </td>
+        <td align="center" width="90">
+            <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="55" height="55" />
+            <br>React
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="48" height="48" />
+            <br>Next.js
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="48" height="48" />
+            <br>Node.js
+        </td>
+    </tr>
+    <tr>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" width="48" height="48" />
+            <br>FastAPI
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="48" height="48" />
+            <br>PostgreSQL
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" width="48" height="48" />
+            <br>SQLite
+        </td>
+        <td align="center" width="90">
+            <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+            <br>Docker
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" width="48" height="48" />
+            <br>PyTorch
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" width="48" height="48" />
+            <br>TensorFlow
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" width="48" height="48" />
+            <br>Firebase
+        </td>
+        <td align="center" width="90">
+            <img src="https://skillicons.dev/icons?i=git" alt="Git" width="48" height="48" />
+            <br>Git
+        </td>
+        <td align="center" width="90">
+            <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="55" height="55" />
+            <br>GitHub
+        </td>
+    </tr>
+</table>
 
 <br clear="both"/>
 <br/>
@@ -75,6 +165,16 @@
 
 - **IMU-Based In-Air Handwriting Recognition**: Developed an Android app (Kotlin) for IMU data collection and a 5-layer PyTorch MLP network achieving 98.67% accuracy for VR/AR interactions.
 - **Tang Dynasty Official Documents NLP Analysis**: Applied SIKU-BERT for high-dimensional semantic embeddings. Utilized t-SNE, UMAP, and clustering to visualize semantic drift pre/post An Lushan Rebellion.
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/computersniper/computersniper/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/computersniper/computersniper/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/computersniper/computersniper/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 <br/>
 
