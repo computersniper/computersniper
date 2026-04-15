@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&pause=1000&color=E6EDF3&center=true&vCenter=true&width=800&lines=Hi%2C%20I%27m%20Cai%20Jiechao;I%20build%20things%20for%20the%20world;AI%20%26%20LLM%20Engineer">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&pause=1000&color=01143E&center=true&vCenter=true&width=800&lines=Hi%2C%20I%27m%20Cai%20Jiechao;I%20build%20things%20for%20the%20world;AI%20%26%20LLM%20Engineer">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&pause=1000&color=01143E&center=true&vCenter=true&width=800&lines=Hi%2C%20I%27m%20Cai%20Jiechao;I%20build%20things%20for%20the%20world;AI%20%26%20LLM%20Engineer" alt="Typing SVG" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=500&duration=3000&color=58A6FF&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT()%3B;%5B%2B%5D+CONNECTION_ESTABLISHED;Hi%2C+I%27m+Cai+Jiechao;AI+%26+LLM+Engineer;Agentic+Architecture+Designer">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=500&duration=3000&color=01143E&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT()%3B;%5B%2B%5D+CONNECTION_ESTABLISHED;Hi%2C+I%27m+Cai+Jiechao;AI+%26+LLM+Engineer;Agentic+Architecture+Designer">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=500&duration=3000&color=01143E&center=true&vCenter=true&width=800&lines=%3E_SYSTEM.INIT()%3B;%5B%2B%5D+CONNECTION_ESTABLISHED;Hi%2C+I%27m+Cai+Jiechao;AI+%26+LLM+Engineer;Agentic+Architecture+Designer" alt="Typing SVG" />
   </picture>
 </div>
 
