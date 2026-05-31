@@ -45,7 +45,7 @@ class CaiJiechao:
         self.web = 'https://www.caijiechao.com'
         
         self.ai_native_developer = {
-            'tools': ['Cursor', 'Claude Code', 'Trae'],
+            'tools': ['Claude Code', 'Codex', 'DeepSeek', 'Cursor', 'Trae', 'Antigravity'],
             'daily_tokens': 'Millions',
             'expertise': ['Prompt Engineering', 'LLM Production Code Paradigms']
         }
@@ -148,6 +148,48 @@ if __name__ == '__main__':
         <td align="center" width="90">
             <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="55" height="55" />
             <br>GitHub
+        </td>
+    </tr>
+</table>
+
+<br clear="both"/>
+<br/>
+
+## 🤖 AI Coding Heavy User
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=800&duration=2500&color=58A6FF&center=true&vCenter=true&width=820&lines=AI+Coding+Heavy+User;Claude+Code+%7C+Codex+%7C+DeepSeek;Cursor+%7C+Trae+%7C+Antigravity">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=800&duration=2500&color=01143E&center=true&vCenter=true&width=820&lines=AI+Coding+Heavy+User;Claude+Code+%7C+Codex+%7C+DeepSeek;Cursor+%7C+Trae+%7C+Antigravity">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=800&duration=2500&color=01143E&center=true&vCenter=true&width=820&lines=AI+Coding+Heavy+User;Claude+Code+%7C+Codex+%7C+DeepSeek;Cursor+%7C+Trae+%7C+Antigravity" alt="AI Coding Power User" />
+  </picture>
+</div>
+
+<table align="center">
+    <tr>
+        <td align="center" width="120">
+            <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+            <br>Claude Code
+        </td>
+        <td align="center" width="120">
+            <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
+            <br>Codex
+        </td>
+        <td align="center" width="120">
+            <img src="https://img.shields.io/badge/DeepSeek-4D6BFF?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek" />
+            <br>DeepSeek
+        </td>
+        <td align="center" width="120">
+            <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+            <br>Cursor
+        </td>
+        <td align="center" width="120">
+            <img src="https://img.shields.io/badge/Trae-1E6BFF?style=for-the-badge&logo=bytedance&logoColor=white" alt="Trae" />
+            <br>Trae
+        </td>
+        <td align="center" width="120">
+            <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />
+            <br>Antigravity
         </td>
     </tr>
 </table>
