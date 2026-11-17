@@ -27,6 +27,12 @@
 
 <br/>
 
+<div align="center">
+  <a href="https://computersniper.github.io/jc-tech-website/?view=scene">
+    <img src="./jc-tech-office.png" width="610" alt="JC Tech 3D office at night. Open the interactive scene." />
+  </a>
+</div>
+
 ## 🎓 Education Background
 
 - **The University of Hong Kong (HKU)** | *MSc in Computer Science* (2026.9 - 2027.8 Expected)
