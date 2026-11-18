@@ -1,0 +1,45 @@
+name: Update virtual company scene
+
+on:
+  schedule:
+    - cron: '45 5,11 * * *'
+      timezone: Asia/Shanghai
+    - cron: '30 6,7,17,19,22 * * *'
+      timezone: Asia/Shanghai
+    - cron: '15 13,18 * * *'
+      timezone: Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/virtual-company.yml'
+      - '.github/scripts/update-company-scene.mjs'
+      - 'jc-tech/schedule.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: virtual-company-scene
+  cancel-in-progress: false
+
+jobs:
+  update-scene:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Select the scene for Beijing time
+        run: node .github/scripts/update-company-scene.mjs
+      - name: Update the profile
+        run: |
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md
+          git commit -m 'Update virtual company scene for Beijing time'
+          git push origin HEAD:main

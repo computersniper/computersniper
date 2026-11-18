@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dawn-rest",
+    "from": 5.75
+  },
+  {
+    "id": "dawn-work",
+    "from": 6.5
+  },
+  {
+    "id": "work",
+    "from": 7.5
+  },
+  {
+    "id": "lunch",
+    "from": 11.75
+  },
+  {
+    "id": "work",
+    "from": 13.25
+  },
+  {
+    "id": "golden-hour",
+    "from": 17.5
+  },
+  {
+    "id": "dusk",
+    "from": 18.25
+  },
+  {
+    "id": "evening",
+    "from": 19.5
+  },
+  {
+    "id": "rest",
+    "from": 22.5
+  }
+]
