@@ -27,11 +27,17 @@
 
 <br/>
 
-<div align="center">
-  <a href="https://computersniper.github.io/jc-tech-website/?view=scene">
-    <img src="./jc-tech-office.png" width="610" alt="JC Tech 3D office at night. Open the interactive scene." />
+<!-- jc-tech:start -->
+<h2 align="center">My Virtual Company</h2>
+<p align="center">
+  <a href="https://computersniper.github.io/jc-tech-website/">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="./jc-tech/night.png" />
+      <img src="./jc-tech/night.webp" width="610" alt="JC Tech at night. Visit my virtual company." />
+    </picture>
   </a>
-</div>
+</p>
+<!-- jc-tech:end -->
 
 ## 🎓 Education Background
 
