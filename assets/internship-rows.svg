@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 268" width="100%" height="268" role="img" aria-label="Internship Experience — Guangming Lab, MetaX Integrated Circuits, and Rhino Education">
+  <defs>
+    <linearGradient id="internBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="916" height="264" rx="10" fill="url(#internBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- ROW 1: Guangming Laboratory -->
+  <g transform="translate(14, 12)">
+    <rect x="0" y="0" width="892" height="76" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="76" rx="2.5" fill="#2dd4bf"/>
+
+    <text x="20" y="25" fill="#f8fafc" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="800">Guangming Laboratory (光明实验室 · 深圳)</text>
+    <text x="360" y="25" fill="#5eead4" font-family="Georgia, serif" font-style="italic" font-size="13.5" font-weight="bold">· Multimodal Algorithm Researcher</text>
+
+    <rect x="742" y="9" width="136" height="21" rx="4" fill="#0b2224" stroke="#2dd4bf" stroke-width="0.9"/>
+    <text x="810" y="23" text-anchor="middle" fill="#99f6e4" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">2026.06 – 2026.08</text>
+
+    <text x="20" y="46" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Human-centric World Models &amp; long-video affective reasoning: built EvidenceGraph QA platform &amp; sandboxed Memory Agent evals.</text>
+    <text x="20" y="64" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Core contributor to lab open-source project Understand Anything (82k+ GitHub Stars) for interactive codebase knowledge graphs.</text>
+  </g>
+
+  <!-- ROW 2: MetaX Integrated Circuits (沐曦集成电路) -->
+  <g transform="translate(14, 96)">
+    <rect x="0" y="0" width="892" height="76" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="76" rx="2.5" fill="#38bdf8"/>
+
+    <text x="20" y="25" fill="#f8fafc" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="800">MetaX Integrated Circuits (沐曦集成电路)</text>
+    <text x="352" y="25" fill="#7dd3fc" font-family="Georgia, serif" font-style="italic" font-size="13.5" font-weight="bold">· Software &amp; AI Application Ecosystem Intern</text>
+
+    <rect x="742" y="9" width="136" height="21" rx="4" fill="#0c1d33" stroke="#38bdf8" stroke-width="0.9"/>
+    <text x="810" y="23" text-anchor="middle" fill="#bae6fd" font-family="'Consolas', monospace" font-size="10" font-weight="bold">GPU &amp; AI Ecosystem</text>
+
+    <text x="20" y="46" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Built Serverless API orchestration, RAG, MCP &amp; LangGraph/Dify agent workflows across 90+ open-source LLMs on domestic GPUs.</text>
+    <text x="20" y="64" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Migrated frontier agents (DeepResearch, DeepScientist, MathModelAgent) to MetaX stack; supported CAICT &amp; CCF AI competitions.</text>
+  </g>
+
+  <!-- ROW 3: Rhino International Education -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="892" height="76" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="76" rx="2.5" fill="#d4a853"/>
+
+    <text x="20" y="25" fill="#f8fafc" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="800">Rhino International Education (犀牛国际教育)</text>
+    <text x="378" y="25" fill="#fde68a" font-family="Georgia, serif" font-style="italic" font-size="13.5" font-weight="bold">· Full-Stack Engineering Intern</text>
+
+    <rect x="742" y="9" width="136" height="21" rx="4" fill="#231b0c" stroke="#d4a853" stroke-width="0.9"/>
+    <text x="810" y="23" text-anchor="middle" fill="#fde68a" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">2026.01 – 2026.04</text>
+
+    <text x="20" y="46" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Built MathTasks FSM/RBAC multi-sampling adversarial verification platform delivering STEM data to Tencent, ByteDance &amp; Xiaohongshu.</text>
+    <text x="20" y="64" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Engineered LiteLLM gateway (8+ vendors, 20+ models, multi-key failover &amp; Langfuse observability) handling 100M+ tokens.</text>
+  </g>
+</svg>

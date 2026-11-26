@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 158" width="100%" height="158" role="img" aria-label="Education Background — HKU MSc CS and BNBU BSc CS">
+  <defs>
+    <linearGradient id="eduBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="916" height="154" rx="10" fill="url(#eduBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- ROW 1: Master's @ HKU -->
+  <g transform="translate(14, 12)">
+    <rect x="0" y="0" width="892" height="62" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="62" rx="2.5" fill="#d4a853"/>
+
+    <text x="20" y="26" fill="#f8fafc" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16" font-weight="800">The University of Hong Kong (HKU)</text>
+    <text x="322" y="26" fill="#fde68a" font-family="Georgia, serif" font-style="italic" font-size="14" font-weight="bold">· MSc in Computer Science</text>
+
+    <rect x="742" y="10" width="136" height="22" rx="4" fill="#172033" stroke="#d4a853" stroke-width="0.9"/>
+    <text x="810" y="24.5" text-anchor="middle" fill="#fde68a" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">2026.09 – 2027.11</text>
+
+    <text x="20" y="48" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12.5">Focus: Affective World Models · Multimodal AI · AI Agents · Reinforcement Learning &amp; Post-Training</text>
+  </g>
+
+  <!-- ROW 2: Bachelor's @ BNBU & University of Malaya -->
+  <g transform="translate(14, 84)">
+    <rect x="0" y="0" width="892" height="62" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="62" rx="2.5" fill="#2dd4bf"/>
+
+    <text x="20" y="26" fill="#f8fafc" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16" font-weight="800">BNBU &amp; University of Malaya (Exchange)</text>
+    <text x="358" y="26" fill="#5eead4" font-family="Georgia, serif" font-style="italic" font-size="14" font-weight="bold">· BSc in Computer Science</text>
+
+    <rect x="742" y="10" width="136" height="22" rx="4" fill="#172033" stroke="#2dd4bf" stroke-width="0.9"/>
+    <text x="810" y="24.5" text-anchor="middle" fill="#99f6e4" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">2022.09 – 2026.06</text>
+
+    <text x="20" y="48" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12.5">Top 15% · Second-Class Scholarship · Dean's List  |  Core: DSA, OS, Networks, ML, NLP &amp; Deep Learning</text>
+  </g>
+</svg>

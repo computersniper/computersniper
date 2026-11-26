@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 184" width="100%" height="184" role="img" aria-label="Professional Skills, Full-Link LLM Architecture, and Capability Radar">
+  <defs>
+    <linearGradient id="skillBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="radarFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#d4a853" stop-opacity="0.32"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="916" height="180" rx="10" fill="url(#skillBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Col 1: Full-Link LLM & Agent Engineering -->
+  <g transform="translate(16, 14)">
+    <rect x="0" y="0" width="320" height="156" rx="7" fill="#0d1526" stroke="#d4a853" stroke-width="1.1" stroke-opacity="0.72"/>
+    <text x="16" y="23" fill="#fde68a" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold" letter-spacing="0.9">01 // FULL-LINK LLM &amp; AGENT HARNESS</text>
+    <line x1="16" y1="32" x2="304" y2="32" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="53" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Orchestration: LangGraph · Workflow · Multi-Agent</text>
+    <text x="16" y="74" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Tooling &amp; Memory: MCP · Skills · RAG · Vector DB</text>
+    <text x="16" y="95" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Harness: Loop Eng. · RSI · Auto-Research · CLI</text>
+    <text x="16" y="116" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Gateway: OpenAI/Anthropic SDK · LiteLLM · SSE</text>
+    <text x="16" y="140" fill="#fde68a" font-family="'Consolas', monospace" font-size="9.5">Cyber-Employee Builder: Reusable Agent Roles</text>
+  </g>
+
+  <!-- Col 2: Multimodal, Post-Training & Systems -->
+  <g transform="translate(348, 14)">
+    <rect x="0" y="0" width="320" height="156" rx="7" fill="#0d1526" stroke="#2dd4bf" stroke-width="1.1" stroke-opacity="0.72"/>
+    <text x="16" y="23" fill="#5eead4" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold" letter-spacing="0.9">02 // MULTIMODAL, RL &amp; CORE STACK</text>
+    <line x1="16" y1="32" x2="304" y2="32" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="53" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Multimodal: Video/Audio/Text · Benchmark Design</text>
+    <text x="16" y="74" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Post-Training: SFT · DPO · GRPO · OPD Alignment</text>
+    <text x="16" y="95" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Languages: Python · Rust · TS · C/C++ · Java/Kotlin</text>
+    <text x="16" y="116" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="11.5">• Stack: PyTorch · React · FastAPI · Redis · Docker</text>
+    <text x="16" y="140" fill="#5eead4" font-family="'Consolas', monospace" font-size="9.5">Clean Architecture · Paper &amp; OSS Reproduction</text>
+  </g>
+
+  <!-- Col 3: 6-Axis Capability Radar Hexagon (From Resume!) -->
+  <g transform="translate(680, 14)">
+    <rect x="0" y="0" width="224" height="156" rx="7" fill="#0d1526" stroke="#38bdf8" stroke-width="1.1" stroke-opacity="0.72"/>
+    <text x="112" y="21" text-anchor="middle" fill="#7dd3fc" font-family="'Consolas', monospace" font-size="10" font-weight="bold" letter-spacing="1">CAPABILITY RADAR</text>
+
+    <!-- Radar Center at (112, 90), Outer Radius R=48 -->
+    <g transform="translate(112, 92)">
+      <!-- Outer & Mid Hexagons -->
+      <polygon points="0,-48 41.6,-24 41.6,24 0,48 -41.6,24 -41.6,-24" fill="none" stroke="#334155" stroke-width="1"/>
+      <polygon points="0,-32 27.7,-16 27.7,16 0,32 -27.7,16 -27.7,-16" fill="none" stroke="#1e293b" stroke-width="0.9"/>
+      <line x1="0" y1="-48" x2="0" y2="48" stroke="#1e293b" stroke-width="0.8"/>
+      <line x1="-41.6" y1="-24" x2="41.6" y2="24" stroke="#1e293b" stroke-width="0.8"/>
+      <line x1="-41.6" y1="24" x2="41.6" y2="-24" stroke="#1e293b" stroke-width="0.8"/>
+
+      <!-- Data Polygon: Agent 95%, Eng 90%, Multimodal 92%, Research 90%, Full-Stack 94%, Ship 88% -->
+      <polygon points="0,-45.6 37.4,-21.6 38.2,22.1 0,43.2 -39.1,22.6 -36.6,-21.1" fill="url(#radarFill)" stroke="#38bdf8" stroke-width="1.8"/>
+
+      <!-- Vertex Dots -->
+      <circle cx="0" cy="-45.6" r="2.6" fill="#fde68a"/>
+      <circle cx="37.4" cy="-21.6" r="2.6" fill="#38bdf8"/>
+      <circle cx="38.2" cy="22.1" r="2.6" fill="#2dd4bf"/>
+      <circle cx="0" cy="43.2" r="2.6" fill="#a78bfa"/>
+      <circle cx="-39.1" cy="22.6" r="2.6" fill="#38bdf8"/>
+      <circle cx="-36.6" cy="-21.1" r="2.6" fill="#34d399"/>
+
+      <!-- Axis Labels -->
+      <text x="0" y="-53" text-anchor="middle" fill="#fde68a" font-family="'Consolas', monospace" font-size="8.5" font-weight="bold">Agent 95</text>
+      <text x="48" y="-22" text-anchor="start" fill="#bae6fd" font-family="'Consolas', monospace" font-size="8.5">Eng 90</text>
+      <text x="48" y="26" text-anchor="start" fill="#99f6e4" font-family="'Consolas', monospace" font-size="8.5">MM 92</text>
+      <text x="0" y="59" text-anchor="middle" fill="#ddd6fe" font-family="'Consolas', monospace" font-size="8.5">Research 90</text>
+      <text x="-48" y="26" text-anchor="end" fill="#bae6fd" font-family="'Consolas', monospace" font-size="8.5">Stack 94</text>
+      <text x="-48" y="-22" text-anchor="end" fill="#6ee7b7" font-family="'Consolas', monospace" font-size="8.5">Ship 88</text>
+    </g>
+  </g>
+</svg>

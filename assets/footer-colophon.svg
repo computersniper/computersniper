@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 56" width="100%" height="56" role="img" aria-label="Colophon — I build things for the world">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 56" width="100%" height="56" role="img" aria-label="I build things for the world">
   <rect x="2" y="4" width="916" height="48" rx="8" fill="#090e1c" stroke="#d4a853" stroke-width="1" stroke-opacity="0.5"/>
-  <text x="460" y="25" text-anchor="middle" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14">"I build things for the world — across pages, weights, and living substrates."</text>
-  <text x="460" y="43" text-anchor="middle" fill="#d4a853" font-family="'Consolas', monospace" font-size="9.5" letter-spacing="2">COLOPHON · JIECHAO CAI · THE UNIVERSITY OF HONG KONG · MMXXVI</text>
+  <text x="460" y="26" text-anchor="middle" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15">"I build things for the world."</text>
+  <text x="460" y="43" text-anchor="middle" fill="#d4a853" font-family="'Consolas', monospace" font-size="9.5" letter-spacing="2">CAI JIECHAO · THE UNIVERSITY OF HONG KONG · caijiechao.com</text>
 </svg>
