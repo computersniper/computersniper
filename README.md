@@ -81,8 +81,9 @@
 
 <img src="./assets/prism-divider.svg" alt="" width="100%" />
 
+## 🏢 My Virtual Company
+
 <!-- jc-tech:start -->
-<h2 align="center">My Virtual Company</h2>
 <p align="center">
   <a href="https://computersniper.github.io/jc-tech-website/">
     <picture>
