@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 308" width="100%" height="308" role="img" aria-label="Featured Open-Source Instruments — Gloss, Black Box, and GTA-Anything">
+  <defs>
+    <linearGradient id="cardBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090e1c"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="glossBeam3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="gtaGoldRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+    <linearGradient id="gtaRespect" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6f43"/>
+      <stop offset="100%" stop-color="#3bd16f"/>
+    </linearGradient>
+    <linearGradient id="gtaArmor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1c6ea4"/>
+      <stop offset="100%" stop-color="#38b6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- CARD 01: GLOSS (Top-Left) -->
+  <g transform="translate(4, 4)">
+    <rect x="0" y="0" width="448" height="142" rx="10" fill="url(#cardBg3)" stroke="#d4a853" stroke-width="1.4" stroke-opacity="0.75"/>
+    <rect x="16" y="14" width="96" height="18" rx="4" fill="#231b0c" stroke="#d4a853" stroke-width="0.9"/>
+    <text x="64" y="26" text-anchor="middle" fill="#fde68a" font-family="'Consolas', monospace" font-size="9.5" font-weight="bold">01 // THE PAGE</text>
+    <text x="122" y="26" fill="#94a3b8" font-family="'Consolas', monospace" font-size="10">★ 21 · npm: gloss-local</text>
+
+    <text x="16" y="54" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">Gloss · 旁注</text>
+    <text x="16" y="77" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">Self-hosted AI paper-reading companion. Illuminate PDFs</text>
+    <text x="16" y="95" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">with margin annotations, structured summaries &amp; chat.</text>
+
+    <text x="16" y="124" fill="#fde68a" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">[Local-First]  [Claude / Codex]  [PDF Annotations]</text>
+
+    <!-- Illuminated Page & Margin Beam -->
+    <g transform="translate(348, 22)">
+      <rect x="0" y="0" width="82" height="98" rx="6" fill="#080d1a" stroke="#1e293b" stroke-width="1.2"/>
+      <rect x="16" y="14" width="48" height="68" rx="3" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <line x1="23" y1="26" x2="54" y2="26" stroke="#94a3b8" stroke-width="2"/>
+      <line x1="23" y1="35" x2="50" y2="35" stroke="#64748b" stroke-width="2"/>
+      <line x1="23" y1="44" x2="56" y2="44" stroke="#fbbf24" stroke-width="2.5"/>
+      <line x1="23" y1="53" x2="46" y2="53" stroke="#64748b" stroke-width="2"/>
+      <line x1="23" y1="62" x2="52" y2="62" stroke="#94a3b8" stroke-width="2"/>
+      <polygon points="4,4 28,4 64,48 44,74" fill="url(#glossBeam3)">
+        <animate attributeName="opacity" values="0.9;0.42;0.9" dur="3.2s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  </g>
+
+  <!-- CARD 02: BLACK BOX (Top-Right) -->
+  <g transform="translate(468, 4)">
+    <rect x="0" y="0" width="448" height="142" rx="10" fill="url(#cardBg3)" stroke="#2dd4bf" stroke-width="1.4" stroke-opacity="0.75"/>
+    <rect x="16" y="14" width="112" height="18" rx="4" fill="#092220" stroke="#2dd4bf" stroke-width="0.9"/>
+    <text x="72" y="26" text-anchor="middle" fill="#5eead4" font-family="'Consolas', monospace" font-size="9.5" font-weight="bold">02 // THE WEIGHTS</text>
+    <text x="138" y="26" fill="#94a3b8" font-family="'Consolas', monospace" font-size="10">LIVE 3D · Three.js · Qwen3</text>
+
+    <text x="16" y="54" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">Black Box · 揭开黑箱</text>
+    <text x="16" y="77" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">Chat with real open-weight LLMs and peel open every</text>
+    <text x="16" y="95" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">layer: inspect real Wq / Wk / Wv matrices in 3D WebGL.</text>
+
+    <text x="16" y="124" fill="#5eead4" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">[Qwen3-0.6B / VL-2B / 4B]  [caijiechao.com/blackbox]</text>
+
+    <!-- Isometric 3D Transformer Layers -->
+    <g transform="translate(348, 22)">
+      <rect x="0" y="0" width="82" height="98" rx="6" fill="#080d1a" stroke="#1e293b" stroke-width="1.2"/>
+      <polygon points="41,16 70,30 41,44 12,30" fill="#0f766e" fill-opacity="0.45" stroke="#2dd4bf" stroke-width="1.2"/>
+      <polygon points="41,36 70,50 41,64 12,50" fill="#4c1d95" fill-opacity="0.55" stroke="#a78bfa" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.35;0.82;0.35" dur="2.5s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="41,56 70,70 41,84 12,70" fill="#0369a1" fill-opacity="0.45" stroke="#38bdf8" stroke-width="1.2"/>
+      <line x1="41" y1="30" x2="41" y2="70" stroke="#fde68a" stroke-width="1.4" stroke-dasharray="2 2"/>
+    </g>
+  </g>
+
+  <!-- CARD 03: GTA-ANYTHING FULL-WIDTH WITH AUTHENTIC STREET HUD WIDGET -->
+  <g transform="translate(4, 158)">
+    <rect x="0" y="0" width="912" height="146" rx="10" fill="url(#cardBg3)" stroke="url(#gtaGoldRim)" stroke-width="1.5" stroke-opacity="0.85"/>
+
+    <!-- Left Info Column (x=16..420) -->
+    <rect x="16" y="14" width="106" height="18" rx="4" fill="#241808" stroke="#FF8C00" stroke-width="0.9"/>
+    <text x="69" y="26" text-anchor="middle" fill="#FFB347" font-family="'Consolas', monospace" font-size="9.5" font-weight="bold">03 // THE WORLD</text>
+    <text x="132" y="26" fill="#94a3b8" font-family="'Consolas', monospace" font-size="10">Agent-Native Plugin · Python + C#</text>
+
+    <text x="16" y="55" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="800">GTA-Anything</text>
+    <text x="158" y="54" fill="#FFD700" font-family="'Consolas', monospace" font-size="12" font-weight="bold">· World-Model Harness</text>
+
+    <text x="16" y="78" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">Drop any gameplay spec or route XML onto Los Santos.</text>
+    <text x="16" y="96" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">Evidence-backed Gameplay IR, C# SDK &amp; atomic rollback.</text>
+
+    <text x="16" y="126" fill="#FFD700" font-family="'Consolas', monospace" font-size="10.5" font-weight="bold">[/gta-anything]  [Python + C#]  [Gen9 / Gen8]  [MIT]</text>
+
+    <!-- Right Embedded Authentic GTA-Anything Los Santos Street HUD Plugin Widget (x=442..896) -->
+    <g transform="translate(442, 15)">
+      <!-- Outer GTA Comic Asphalt Frame -->
+      <rect x="0" y="0" width="454" height="116" rx="6" fill="#0a0a0f" stroke="#000000" stroke-width="3.5"/>
+      <rect x="3" y="3" width="448" height="110" rx="4" fill="none" stroke="url(#gtaGoldRim)" stroke-width="1.6" stroke-opacity="0.9"/>
+
+      <!-- Subtle Street Hazard Stripes -->
+      <g opacity="0.12">
+        <polygon points="8,6 24,6 12,110 8,110" fill="#FFD700"/>
+        <polygon points="32,6 48,6 36,110 20,110" fill="#FFD700"/>
+        <polygon points="56,6 72,6 60,110 44,110" fill="#FFD700"/>
+      </g>
+
+      <!-- Top Row of Street HUD: Equipped Plugin + 5-Star Asset Gate + Cash -->
+      <g transform="translate(12, 11)">
+        <!-- Equipped Plugin Box -->
+        <rect x="0" y="0" width="164" height="48" rx="4" fill="#161821" stroke="#2c3040" stroke-width="1.4"/>
+        <rect x="0" y="0" width="5" height="48" rx="2" fill="#FF8C00"/>
+        <text x="12" y="15" fill="#FF8C00" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="8.5" font-weight="900" letter-spacing="1">EQUIPPED PLUGIN</text>
+        <text x="12" y="32" fill="#FFFFFF" font-family="'Consolas', monospace" font-weight="bold" font-size="12.5">[/gta-anything]</text>
+        <text x="12" y="43" fill="#9ca3af" font-family="'Consolas', monospace" font-size="8.5">CLI-HARNESS · --json</text>
+
+        <!-- 5-Star Gate Box -->
+        <rect x="172" y="0" width="146" height="48" rx="4" fill="#161821" stroke="#2c3040" stroke-width="1.4"/>
+        <text x="182" y="15" fill="#D4AF37" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="8.5" font-weight="900" letter-spacing="0.8">5-STAR ASSET GATE</text>
+        <text x="181" y="37" fill="#FFD700" font-family="'Segoe UI Symbol', 'Arial Black', sans-serif" font-size="16" letter-spacing="1">★★★★★</text>
+        <rect x="276" y="21" width="34" height="17" rx="2.5" fill="#2E8B57"/>
+        <text x="293" y="33" text-anchor="middle" fill="#FFFFFF" font-family="'Consolas', monospace" font-size="8" font-weight="bold">PASS</text>
+
+        <!-- Cash Counter Box -->
+        <rect x="326" y="0" width="104" height="48" rx="4" fill="#161821" stroke="#2c3040" stroke-width="1.4"/>
+        <text x="422" y="15" text-anchor="end" fill="#86efac" font-family="'Consolas', monospace" font-size="8" font-weight="bold">CLEAN-ROOM</text>
+        <text x="422" y="38" text-anchor="end" fill="#3bd16f" font-family="'Impact', 'Arial Black', 'Consolas', sans-serif" font-size="17.5" letter-spacing="0.6">$00,250,100</text>
+      </g>
+
+      <!-- Bottom Row of Street HUD: Mission Passed Respect + Safehouse Armor Bars -->
+      <g transform="translate(12, 65)">
+        <rect x="0" y="0" width="430" height="40" rx="4" fill="#161821" stroke="#2c3040" stroke-width="1.4"/>
+        <text x="12" y="14" fill="#FFD700" font-family="'Impact', 'Arial Black', sans-serif" font-size="10.5" letter-spacing="1">MISSION PASSED! · RESPECT +</text>
+        <text x="418" y="14" text-anchor="end" fill="#9ca3af" font-family="'Consolas', monospace" font-size="8.5">L1-L7 TELEMETRY VERIFIED</text>
+
+        <!-- Respect Bar -->
+        <rect x="12" y="20" width="198" height="12" rx="2" fill="#0b0c10" stroke="#000000" stroke-width="1"/>
+        <rect x="13" y="21" width="196" height="10" rx="1.5" fill="url(#gtaRespect)"/>
+        <text x="111" y="29" text-anchor="middle" fill="#000000" font-family="'Consolas', monospace" font-size="8" font-weight="bold">RESPECT +100 (25/25 TESTS)</text>
+
+        <!-- Safehouse Armor Bar -->
+        <rect x="220" y="20" width="198" height="12" rx="2" fill="#0b0c10" stroke="#000000" stroke-width="1"/>
+        <rect x="221" y="21" width="196" height="10" rx="1.5" fill="url(#gtaArmor)"/>
+        <text x="319" y="29" text-anchor="middle" fill="#000000" font-family="'Consolas', monospace" font-size="8" font-weight="bold">SAFEHOUSE ARMOR 100%</text>
+      </g>
+    </g>
+  </g>
+</svg>

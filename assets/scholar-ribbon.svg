@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 84" width="100%" height="84" role="img" aria-label="Academic and Open-Source Spec Ribbon">
+  <defs>
+    <linearGradient id="ribBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090e1c"/>
+      <stop offset="50%" stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#090e1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="916" height="80" rx="8" fill="url(#ribBg)" stroke="#1e293b" stroke-width="2"/>
+  <rect x="5" y="5" width="910" height="74" rx="6" fill="none" stroke="#d4a853" stroke-width="1" stroke-opacity="0.55"/>
+
+  <!-- Plaque I -->
+  <g transform="translate(16, 13)">
+    <rect x="0" y="0" width="212" height="58" rx="5" fill="#0d1424" stroke="#334155" stroke-width="1"/>
+    <text x="14" y="18" fill="#d4a853" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1.2">I · GRADUATE STUDY</text>
+    <text x="14" y="37" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="14.5" font-weight="700">HKU · MSc in CS</text>
+    <text x="14" y="51" fill="#94a3b8" font-family="'Consolas', monospace" font-size="9.5">2026–2027 · LLMs &amp; Agents</text>
+  </g>
+
+  <!-- Plaque II -->
+  <g transform="translate(240, 13)">
+    <rect x="0" y="0" width="214" height="58" rx="5" fill="#0d1424" stroke="#334155" stroke-width="1"/>
+    <text x="14" y="18" fill="#5eead4" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1.2">II · HONORS &amp; EXCHANGE</text>
+    <text x="14" y="37" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="14.5" font-weight="700">BNBU &amp; Univ. Malaya</text>
+    <text x="14" y="51" fill="#94a3b8" font-family="'Consolas', monospace" font-size="9.5">Top 15% BSc CS · Scholarship</text>
+  </g>
+
+  <!-- Plaque III -->
+  <g transform="translate(466, 13)">
+    <rect x="0" y="0" width="214" height="58" rx="5" fill="#0d1424" stroke="#334155" stroke-width="1"/>
+    <text x="14" y="18" fill="#7dd3fc" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1.2">III · OPEN ECOSYSTEM</text>
+    <text x="14" y="37" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="14.5" font-weight="700">npm · PyPI · GitHub</text>
+    <text x="14" y="51" fill="#94a3b8" font-family="'Consolas', monospace" font-size="9.5">gloss-local · paste-cli · G-IR</text>
+  </g>
+
+  <!-- Plaque IV -->
+  <g transform="translate(692, 13)">
+    <rect x="0" y="0" width="212" height="58" rx="5" fill="#0d1424" stroke="#334155" stroke-width="1"/>
+    <text x="14" y="18" fill="#c4b5fd" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1.2">IV · EMPIRICAL BENCHMARK</text>
+    <text x="14" y="37" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="14.5" font-weight="700">98.67% IMU · SIKU-BERT</text>
+    <text x="14" y="51" fill="#94a3b8" font-family="'Consolas', monospace" font-size="9.5">500-Sample XR Dataset + NLP</text>
+  </g>
+</svg>
