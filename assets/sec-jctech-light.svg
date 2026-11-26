@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="58" viewBox="0 0 840 58" fill="none">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+      .mono { font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <text x="420" y="17" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" letter-spacing="0.08em" fill="#5F88E0">01 / MY VIRTUAL COMPANY · LIVE CAMPUS</text>
+  <text x="420" y="40" text-anchor="middle" class="sans" font-size="20" font-weight="800" letter-spacing="-0.01em" fill="#14171F">杰超科技 · JC Tech Headquarters</text>
+  <text x="420" y="55" text-anchor="middle" class="sans" font-size="11.5" fill="#7C8596">一栋办公楼，整个 AI 团队 · Synced to Beijing Time (Asia/Shanghai) · Click to enter 3D campus</text>
+</svg>

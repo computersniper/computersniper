@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="272" viewBox="0 0 840 272" fill="none">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+      .mono { font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace; }
+      @keyframes pulseLed { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @keyframes bobA { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-2.5px); } }
+      @keyframes bobB { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-3px); } }
+      .led { animation: pulseLed 2.2s ease-in-out infinite; }
+      .b1 { animation: bobA 3.0s ease-in-out infinite; }
+      .b2 { animation: bobB 3.4s ease-in-out 0.5s infinite; }
+      .b3 { animation: bobA 3.2s ease-in-out 1.0s infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .led, .b1, .b2, .b3 { animation: none !important; }
+      }
+    </style>
+    <pattern id="archGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="rgba(148, 163, 184, 0.06)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="jcBadge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5F88E0"/>
+      <stop offset="100%" stop-color="#01143E"/>
+    </linearGradient>
+    <radialGradient id="topGlow" cx="50%" cy="0%" r="65%">
+      <stop offset="0%" stop-color="#5F88E0" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#5F88E0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="heroClip">
+      <rect x="1" y="1" width="838" height="270" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#heroClip)">
+    <rect x="1" y="1" width="838" height="270" rx="22" fill="#070B14"/>
+    <rect x="1" y="1" width="838" height="210" fill="url(#archGrid)"/>
+    <rect x="1" y="1" width="838" height="220" fill="url(#topGlow)"/>
+
+    <!-- Top Telemetry Header -->
+    <rect x="32" y="22" width="26" height="26" rx="8" fill="url(#jcBadge)"/>
+    <text x="45" y="39" text-anchor="middle" class="sans" font-size="10.5" font-weight="800" fill="#FFFFFF">JC</text>
+    <text x="68" y="39" class="sans" font-size="13" font-weight="700" fill="#F1F5F9">杰超科技 · JC Tech</text>
+    <text x="196" y="39" class="mono" font-size="11" fill="#7F8FA9">/  EXECUTIVE PROFILE  ·  8F HQ</text>
+
+    <!-- Status Pill Top Right -->
+    <rect x="632" y="22" width="176" height="26" rx="13" fill="#0D1322" stroke="#1D2942" stroke-width="1"/>
+    <circle cx="648" cy="35" r="4" fill="#10B981" class="led"/>
+    <text x="660" y="39" class="mono" font-size="10.5" font-weight="600" fill="#B4C0D4">HKU MSc CS · ACTIVE</text>
+
+    <line x1="32" y1="60" x2="808" y2="60" stroke="#1D2942" stroke-width="1"/>
+
+    <!-- Left Column: Editorial Identity -->
+    <text x="34" y="86" class="mono" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#93B4F5">AGENTIC ARCHITECTURE  ·  LLM ENGINEERING  ·  INTERACTIVE 3D</text>
+
+    <text x="34" y="126" class="sans" font-size="34" font-weight="800" letter-spacing="-0.02em" fill="#F1F5F9">CAI Jiechao</text>
+    <text x="242" y="124" class="sans" font-size="18" font-weight="600" fill="#7F8FA9">蔡杰超  ·  @computersniper</text>
+
+    <text x="34" y="154" class="sans" font-size="14.5" font-weight="600" fill="#B4C0D4">Building useful, unique, and elegant AI-native products.</text>
+    <text x="34" y="177" class="sans" font-size="13" fill="#7F8FA9">一栋办公楼，整个 AI 团队 —— 以「统一入口 + 25 位专职 Bot」构建一人公司。</text>
+
+    <!-- Bot Crew Dock -->
+    <rect x="34" y="198" width="486" height="46" rx="15" fill="#0D1322" stroke="#1D2942" stroke-width="1"/>
+    <g transform="translate(44.0,206.0) scale(0.5625)"><g class="b1"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><rect x="10" y="7" width="28" height="34" rx="14" fill="#d1ac69"/><ellipse cx="20" cy="15" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><circle cx="18.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="29.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="19" cy="23.7" r="1.05" fill="#0f172a"/><circle cx="30" cy="23.7" r="1.05" fill="#0f172a"/><path d="M21.5 28.5 Q24 30.5 26.5 28.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.88"/></g></g><g transform="translate(73.0,206.0) scale(0.5625)"><g class="b2"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><path d="M24 7 L40 37 Q41.5 40 38 40 L10 40 Q6.5 40 8 37 Z" fill="#aaa0ce" stroke="#aaa0ce" stroke-width="3" stroke-linejoin="round"/><ellipse cx="20" cy="19" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><circle cx="18.5" cy="28" r="2.3" fill="#ffffff"/><circle cx="29.5" cy="28" r="2.3" fill="#ffffff"/><circle cx="19" cy="27.7" r="1.05" fill="#0f172a"/><circle cx="30" cy="27.7" r="1.05" fill="#0f172a"/><path d="M21.5 32.5 Q24 34.5 26.5 32.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.88"/></g></g><g transform="translate(102.0,206.0) scale(0.5625)"><g class="b3"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><path d="M24 8 C35 8 41 16 40 26 C39 36 33 41 24 41 C14 41 8 36 8 25 C8 14 14 8 24 8 Z" fill="#292c30"/><ellipse cx="20" cy="15" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><circle cx="18.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="29.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="19" cy="23.7" r="1.05" fill="#0f172a"/><circle cx="30" cy="23.7" r="1.05" fill="#0f172a"/><path d="M21.5 28.5 Q24 30.5 26.5 28.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.88"/></g></g><g transform="translate(131.0,206.0) scale(0.5625)"><g class="b1"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><path d="M24 8 C35 8 41 16 40 26 C39 36 33 41 24 41 C14 41 8 36 8 25 C8 14 14 8 24 8 Z" fill="#13b8a3"/><ellipse cx="20" cy="15" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><rect x="13" y="20" width="22" height="9" rx="4" fill="#0f172a"/><rect x="15.5" y="22" width="17" height="5" rx="2.5" fill="#38bdf8" opacity="0.9"/><line x1="17" y1="23.5" x2="22" y2="23.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.75"/></g></g><g transform="translate(160.0,206.0) scale(0.5625)"><g class="b2"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><path d="M24 6 L39 14.5 L39 33.5 L24 42 L9 33.5 L9 14.5 Z" fill="#1884fc" stroke="#1884fc" stroke-width="2.5" stroke-linejoin="round"/><ellipse cx="20" cy="15" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><circle cx="18.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="29.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="19" cy="23.7" r="1.05" fill="#0f172a"/><circle cx="30" cy="23.7" r="1.05" fill="#0f172a"/><path d="M21.5 28.5 Q24 30.5 26.5 28.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.88"/></g></g><g transform="translate(189.0,206.0) scale(0.5625)"><g class="b3"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><rect x="10" y="7" width="28" height="34" rx="14" fill="#fc2c3e"/><ellipse cx="20" cy="15" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><circle cx="18.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="29.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="19" cy="23.7" r="1.05" fill="#0f172a"/><circle cx="30" cy="23.7" r="1.05" fill="#0f172a"/><path d="M21.5 28.5 Q24 30.5 26.5 28.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.88"/></g></g><g transform="translate(218.0,206.0) scale(0.5625)"><g class="b1"><ellipse cx="24" cy="43.5" rx="11.5" ry="2.4" fill="#000000" opacity="0.14"/><g fill="#f9670e"><circle cx="24" cy="15" r="9"/><circle cx="33" cy="24" r="9"/><circle cx="24" cy="33" r="9"/><circle cx="15" cy="24" r="9"/></g><ellipse cx="20" cy="15" rx="5.2" ry="2.1" fill="#ffffff" opacity="0.24"/><circle cx="18.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="29.5" cy="24" r="2.3" fill="#ffffff"/><circle cx="19" cy="23.7" r="1.05" fill="#0f172a"/><circle cx="30" cy="23.7" r="1.05" fill="#0f172a"/><path d="M21.5 28.5 Q24 30.5 26.5 28.5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.88"/></g></g>
+    <line x1="256" y1="209" x2="256" y2="233" stroke="#1D2942" stroke-width="1"/>
+    <text x="270" y="218" class="sans" font-size="12" font-weight="700" fill="#F1F5F9">cjc &amp; ws + 25 AI Bots</text>
+    <text x="270" y="234" class="mono" font-size="10.5" fill="#7F8FA9">豆包 COO Dispatch · 8F + B1 Campus</text>
+
+    <!-- Right Column: 3 JC Tech Bento KPI Cards (Zero Collision Two-Tier Layout) -->
+    <g>
+      <rect x="548" y="74" width="260" height="54" rx="14" fill="#0D1322" stroke="#1D2942" stroke-width="1"/>
+      <text x="564" y="94" class="mono" font-size="10" font-weight="700" fill="#7F8FA9">VIRTUAL COMPANY</text>
+      <text x="792" y="95" text-anchor="end" class="mono" font-size="15.5" font-weight="800" fill="#F1F5F9">25 Bots</text>
+      <text x="564" y="116" class="sans" font-size="11.5" font-weight="600" fill="#B4C0D4">2 Lead · 6 Routine · 17 On-Demand</text>
+    </g>
+
+    <g>
+      <rect x="548" y="136" width="260" height="54" rx="14" fill="#0D1322" stroke="#28437A" stroke-width="1"/>
+      <text x="564" y="156" class="mono" font-size="10" font-weight="700" fill="#93B4F5">SINGLE COO ENTRY</text>
+      <text x="792" y="157" text-anchor="end" class="sans" font-size="14.5" font-weight="800" fill="#5F88E0">豆包 COO</text>
+      <text x="564" y="178" class="sans" font-size="11.5" font-weight="600" fill="#B4C0D4">8F Executive → 7 Functional Floors</text>
+    </g>
+
+    <g>
+      <rect x="548" y="198" width="260" height="54" rx="14" fill="#0D1322" stroke="#1D2942" stroke-width="1"/>
+      <text x="564" y="218" class="mono" font-size="10" font-weight="700" fill="#7F8FA9">AI-NATIVE WORKFLOW</text>
+      <text x="792" y="219" text-anchor="end" class="mono" font-size="13.5" font-weight="800" fill="#F1F5F9">1M+ tok/d</text>
+      <text x="564" y="240" class="sans" font-size="11.5" font-weight="600" fill="#B4C0D4">Claude Code · Codex · Antigravity</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="838" height="270" rx="22" stroke="#1D2942" stroke-width="1.2"/>
+</svg>
