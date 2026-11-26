@@ -75,9 +75,14 @@
 
 ## 🔬 Academic Research
 
-- **Human-Centric Long-Video Understanding & Theory-of-Mind (ToM) Agents** *(In Submission)*: Researching multimodal long-video human state, belief, and affective reasoning with isolated sandbox memory evaluation, alongside controllable 3D facial expression synthesis (*Face Lab*), recursive self-improvement (*RSI*) verification loops, and MLLM face-privacy protection.
-- **[IMU-Based In-Air Handwriting Recognition](https://github.com/computersniper/Android-IMU-Digits-Gesture-Dataset)**: Developed an Android 100 Hz 9-axis IMU data acquisition app (`Kotlin`) and a 5-layer `PyTorch` MLP achieving **98.67% accuracy** for XR interactions; open-sourced the 500-sample gesture dataset.
-- **Tang Dynasty Official Documents NLP Analysis**: Applied `SIKU-BERT` high-dimensional contextual embeddings with `t-SNE`, `UMAP`, and clustering to uncover diachronic semantic drift across the An Lushan Rebellion.
+<img src="./assets/academic-research.svg" alt="Academic Research — Long-Video ToM Agents, IMU Air-Writing XR, and Tang Dynasty NLP" width="100%" />
+
+<p align="center">
+  <sub>
+    <b>OPEN DATASET ↗</b> &nbsp;
+    <a href="https://github.com/computersniper/Android-IMU-Digits-Gesture-Dataset"><code>Android-IMU-Digits-Gesture-Dataset (500 9-Axis 100Hz Gesture Samples)</code></a>
+  </sub>
+</p>
 
 <img src="./assets/prism-divider.svg" alt="" width="100%" />
 

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 284" width="100%" height="284" role="img" aria-label="Academic Research — Long-Video ToM Agents, IMU Air-Writing XR, and Tang Dynasty NLP">
+  <defs>
+    <linearGradient id="resBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="916" height="280" rx="10" fill="url(#resBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- ROW 1: Human-Centric Long-Video & ToM Agents -->
+  <g transform="translate(14, 12)">
+    <rect x="0" y="0" width="892" height="82" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="82" rx="2.5" fill="#a78bfa"/>
+
+    <text x="20" y="26" fill="#f8fafc" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15.5" font-weight="800">Human-Centric Long-Video &amp; Theory-of-Mind Agents</text>
+
+    <rect x="604" y="9" width="146" height="21" rx="4" fill="#1b1433" stroke="#a78bfa" stroke-width="0.9"/>
+    <text x="677" y="23" text-anchor="middle" fill="#ddd6fe" font-family="'Consolas', monospace" font-size="10" font-weight="bold">ICLR / CVPR Subm.</text>
+
+    <text x="20" y="49" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Multimodal long-video human belief, intent &amp; affect reasoning with isolated sandbox memory evals.</text>
+    <text x="20" y="68" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Exploring controllable 3D facial synthesis (Face Lab), RSI verification loops &amp; MLLM privacy.</text>
+
+    <!-- Right Schematic: Video Clips -> Memory Graph -> ToM Node -->
+    <g transform="translate(766, 8)">
+      <rect x="0" y="0" width="114" height="66" rx="6" fill="#080d1a" stroke="#1e293b" stroke-width="1.1"/>
+      <rect x="10" y="10" width="22" height="14" rx="2" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+      <rect x="10" y="27" width="22" height="14" rx="2" fill="#1e1b4b" stroke="#a78bfa" stroke-width="1"/>
+      <rect x="10" y="44" width="22" height="14" rx="2" fill="#1e1b4b" stroke="#c084fc" stroke-width="1"/>
+      <line x1="32" y1="17" x2="62" y2="33" stroke="#818cf8" stroke-width="1.1" stroke-dasharray="2 2"/>
+      <line x1="32" y1="34" x2="62" y2="33" stroke="#a78bfa" stroke-width="1.2"/>
+      <line x1="32" y1="51" x2="62" y2="33" stroke="#c084fc" stroke-width="1.1" stroke-dasharray="2 2"/>
+      <circle cx="62" cy="33" r="6" fill="#2e1065" stroke="#a78bfa" stroke-width="1.4">
+        <animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="68" y1="33" x2="84" y2="33" stroke="#fde68a" stroke-width="1.4"/>
+      <rect x="84" y="22" width="22" height="22" rx="4" fill="#231b0c" stroke="#fde68a" stroke-width="1"/>
+      <text x="95" y="36" text-anchor="middle" fill="#fde68a" font-family="'Consolas', monospace" font-size="8" font-weight="bold">ToM</text>
+    </g>
+  </g>
+
+  <!-- ROW 2: IMU-Based In-Air Handwriting Recognition -->
+  <g transform="translate(14, 102)">
+    <rect x="0" y="0" width="892" height="82" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="82" rx="2.5" fill="#2dd4bf"/>
+
+    <text x="20" y="26" fill="#f8fafc" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15.5" font-weight="800">IMU-Based In-Air Handwriting Recognition</text>
+
+    <rect x="604" y="9" width="146" height="21" rx="4" fill="#092220" stroke="#2dd4bf" stroke-width="0.9"/>
+    <text x="677" y="23" text-anchor="middle" fill="#5eead4" font-family="'Consolas', monospace" font-size="10" font-weight="bold">98.67% Acc · XR</text>
+
+    <text x="20" y="49" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Built a 100 Hz 9-axis Android IMU acquisition app (Kotlin) &amp; 5-layer PyTorch MLP for XR input.</text>
+    <text x="20" y="68" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Achieved 98.67% digit-recognition accuracy and open-sourced a 500-sample 9-axis IMU dataset.</text>
+
+    <!-- Right Schematic: 9-Axis IMU Waveform & 3D Gesture Stroke -->
+    <g transform="translate(766, 8)">
+      <rect x="0" y="0" width="114" height="66" rx="6" fill="#080d1a" stroke="#1e293b" stroke-width="1.1"/>
+      <polyline points="8,44 20,22 32,48 44,16 56,38 68,26" fill="none" stroke="#2dd4bf" stroke-width="1.6" stroke-dasharray="90" stroke-dashoffset="0">
+        <animate attributeName="stroke-opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>
+      </polyline>
+      <polyline points="8,50 22,38 36,52 50,30 66,44" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity="0.7"/>
+      <rect x="74" y="13" width="32" height="40" rx="4" fill="#092220" stroke="#2dd4bf" stroke-width="1"/>
+      <text x="90" y="31" text-anchor="middle" fill="#5eead4" font-family="'Consolas', monospace" font-size="8.5" font-weight="bold">98.7</text>
+      <text x="90" y="44" text-anchor="middle" fill="#99f6e4" font-family="'Consolas', monospace" font-size="7.5">% ACC</text>
+    </g>
+  </g>
+
+  <!-- ROW 3: Tang Dynasty Official Documents NLP Analysis -->
+  <g transform="translate(14, 192)">
+    <rect x="0" y="0" width="892" height="80" rx="7" fill="#0d1526" stroke="#334155" stroke-width="1.1"/>
+    <rect x="0" y="0" width="5" height="80" rx="2.5" fill="#d4a853"/>
+
+    <text x="20" y="26" fill="#f8fafc" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15.5" font-weight="800">Tang Dynasty Official Documents NLP Analysis</text>
+
+    <rect x="604" y="9" width="146" height="21" rx="4" fill="#231b0c" stroke="#d4a853" stroke-width="0.9"/>
+    <text x="677" y="23" text-anchor="middle" fill="#fde68a" font-family="'Consolas', monospace" font-size="10" font-weight="bold">SIKU-BERT · UMAP</text>
+
+    <text x="20" y="48" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Extracted high-dimensional contextual embeddings from classical Tang corpora via SIKU-BERT.</text>
+    <text x="20" y="67" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12">• Applied UMAP, t-SNE &amp; clustering to quantify diachronic semantic drift across An Lushan Rebellion.</text>
+
+    <!-- Right Schematic: Diachronic Semantic Drift Manifold Clusters -->
+    <g transform="translate(766, 8)">
+      <rect x="0" y="0" width="114" height="64" rx="6" fill="#080d1a" stroke="#1e293b" stroke-width="1.1"/>
+      <!-- Pre-Rebellion Cluster (Gold) -->
+      <circle cx="24" cy="42" r="12" fill="#d4a853" fill-opacity="0.16" stroke="#d4a853" stroke-width="0.9" stroke-dasharray="2 2"/>
+      <circle cx="21" cy="40" r="2.2" fill="#fde68a"/>
+      <circle cx="28" cy="45" r="2.2" fill="#fbbf24"/>
+      <circle cx="23" cy="47" r="1.8" fill="#fde68a"/>
+      <!-- Drift Vector Arrow -->
+      <line x1="36" y1="38" x2="74" y2="24" stroke="#f8fafc" stroke-width="1.3" stroke-dasharray="4 2">
+        <animate attributeName="stroke-dashoffset" from="12" to="0" dur="1.4s" repeatCount="indefinite"/>
+      </line>
+      <polygon points="75,24 68,23 71,29" fill="#f8fafc"/>
+      <!-- Post-Rebellion Cluster (Cyan) -->
+      <circle cx="88" cy="22" r="12" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" stroke-width="0.9" stroke-dasharray="2 2"/>
+      <circle cx="85" cy="20" r="2.2" fill="#7dd3fc"/>
+      <circle cx="92" cy="24" r="2.2" fill="#38bdf8"/>
+      <circle cx="88" cy="17" r="1.8" fill="#bae6fd"/>
+      <text x="57" y="57" text-anchor="middle" fill="#94a3b8" font-family="'Consolas', monospace" font-size="7.5">SEMANTIC DRIFT</text>
+    </g>
+  </g>
+</svg>
