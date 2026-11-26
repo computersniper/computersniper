@@ -26,9 +26,32 @@
 
 <img src="./assets/skills-architecture.svg" alt="Professional Skills, Full-Link LLM Architecture, and Capability Radar" width="100%" />
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,cpp,java,kotlin,cs,react,nextjs,fastapi,nodejs,pytorch,tensorflow,redis,postgres,sqlite,docker,git,github&perline=10" alt="Languages and Tools" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="88"><img src="./assets/icons/python-icon.svg" alt="Python" width="46" height="46" /><br/><sub>Python</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=rust" alt="Rust" width="44" height="44" /><br/><sub>Rust</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/ts-icon.svg" alt="TypeScript" width="46" height="46" /><br/><sub>TypeScript</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/js-icon.svg" alt="JavaScript" width="46" height="46" /><br/><sub>JavaScript</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/cpp-icon.svg" alt="C++" width="46" height="46" /><br/><sub>C / C++</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/java-icon.svg" alt="Java" width="46" height="46" /><br/><sub>Java</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" width="44" height="44" /><br/><sub>Kotlin</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/csharp-icon.svg" alt="C#" width="46" height="46" /><br/><sub>C#</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/react-icon.svg" alt="React" width="46" height="46" /><br/><sub>React</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="44" height="44" /><br/><sub>Next.js</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" width="44" height="44" /><br/><sub>FastAPI</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="44" height="44" /><br/><sub>Node.js</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/restapi-icon.svg" alt="REST API" width="46" height="46" /><br/><sub>REST / SSE</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" width="44" height="44" /><br/><sub>PyTorch</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" width="44" height="44" /><br/><sub>TensorFlow</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=redis" alt="Redis" width="44" height="44" /><br/><sub>Redis</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="44" height="44" /><br/><sub>PostgreSQL</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/docker-icon.svg" alt="Docker" width="46" height="46" /><br/><sub>Docker</sub></td>
+    <td align="center" width="88"><img src="https://skillicons.dev/icons?i=git" alt="Git" width="44" height="44" /><br/><sub>Git</sub></td>
+    <td align="center" width="88"><img src="./assets/icons/github-icon.svg" alt="GitHub" width="46" height="46" /><br/><sub>GitHub</sub></td>
+  </tr>
+</table>
 
 ## 🤖 AI Coding Heavy User
 
@@ -49,11 +72,6 @@
     <code>[04] HSD &amp; ToM Agent (Preprint Soon)</code>
   </sub>
 </p>
-
-- **Understand Anything (Contributor · 82k+ GitHub Stars)**: Contributed to Guangming Lab's open-source interactive knowledge-graph explorer for large codebases.
-- **[Roles-Skill · 众生](https://github.com/computersniper/roles-skill)** & **[paste-cli](https://github.com/computersniper/paste)**: Designed a persona-distillation `AgentSkills` architecture with auto-dispatched Python tools, alongside a secret-safe one-command repo context packer (`pip install paste-cli`).
-- **[Baipiao: Browser-Automation Local LLM Proxy](https://github.com/computersniper/baipiao)**: Built a local CDP browser-automation service (`Bun` / `Hono`) exposing standard OpenAI/Anthropic-compatible `/v1/chat/completions` endpoints.
-- **[Multi-Agent AI Tutor](https://github.com/computersniper/ai-tutor)** & **[1024-D Embedding Space Game](https://github.com/computersniper/discover-embedding-space-game)**: Router-coordinated 4-agent teaching assistant for *Data Structures & Algorithms*, plus an interactive 1024-D `Qwen3-Embedding` concept navigation game.
 
 ## 🔬 Academic Research
 
