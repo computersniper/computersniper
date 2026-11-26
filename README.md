@@ -82,16 +82,14 @@
 <img src="./assets/prism-divider.svg" alt="" width="100%" />
 
 <!-- jc-tech:start -->
-<h2 align="center">🏢 My Virtual Company · JC Tech</h2>
+<h2 align="center">My Virtual Company</h2>
 <p align="center">
   <a href="https://computersniper.github.io/jc-tech-website/">
     <picture>
-      <source media="(prefers-reduced-motion: reduce)" srcset="./jc-tech/work.png" />
-      <img src="./jc-tech/work.svg" width="660" alt="JC Tech. Visit my virtual company." />
+      <source media="(prefers-reduced-motion: reduce)" srcset="./jc-tech/golden-hour.png" />
+      <img src="./jc-tech/golden-hour.svg" width="610" alt="JC Tech. Visit my virtual company." />
     </picture>
   </a>
-  <br/>
-  <sub><a href="https://computersniper.github.io/jc-tech-website/"><b>Visit 3D Interactive Campus ↗</b></a> · Synced live with Beijing time (UTC+8)</sub>
 </p>
 <!-- jc-tech:end -->
 
