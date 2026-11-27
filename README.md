@@ -92,8 +92,8 @@
 <p align="center">
   <a href="https://computersniper.github.io/jc-tech-website/">
     <picture>
-      <source media="(prefers-reduced-motion: reduce)" srcset="./jc-tech/rest.png" />
-      <img src="./jc-tech/rest.svg" width="610" alt="JC Tech. Visit my virtual company." />
+      <source media="(prefers-reduced-motion: reduce)" srcset="./jc-tech/lunch.png" />
+      <img src="./jc-tech/lunch.svg" width="610" alt="JC Tech. Visit my virtual company." />
     </picture>
   </a>
 </p>
